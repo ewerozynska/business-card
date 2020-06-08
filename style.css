@@ -1,7 +1,47 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
 body {
-    background: #2C2141;
+  background: #2c2141;
+  position: relative;
 }
 
 .main {
-    background: #F8F8F8;
+  margin: auto;
+  background: #f8f8f8;
+  width: 624px;
+  padding: 32px;
+  border-radius: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+.business-card__name {
+  font-weight: normal;
+  font-style: normal;
+  margin: 0;
+}
+
+.business-card__position {
+  font-weight: normal;
+  font-style: italic;
+  margin: 0;
+  color: #545454;
+}
+
+.special {
+  font-weight: normal;
+  color: #ed6d05;
+}
+
+.special--link {
+  color: #e20613;
+  text-decoration: none;
 }
